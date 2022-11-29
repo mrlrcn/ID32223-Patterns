@@ -45,34 +45,58 @@ h6,
   font-size: 16px;
 }
 
-button,
+/*Main Button*/
 .btn {
-  display: inline-block;
-  padding: 0 16px;
-  background-color: #729f34;
-  text-decoration: none;
-  color: white;
-  border: 1px solid #a2a2a2;
-  line-height: 2;
-  text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: 2px;
+  background-color: rgba(198, 171, 250, 0.5);
+  border: 1px solid #413C4A;
+  border-radius: 30px;
+  color: #B413C4A;
   cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-button:hover,
 .btn:hover {
-  background-color: #8fc741;
+  color: #B4A1DB;
+  background-color: #fff;
+  border: 1px solid #B4A1DB;
 }
 
-.btn--secondary {
-  background-color: #dadada;
-  color: #1e1e1e;
+.btn:active {
+  transform: translate(2px, 2px);
 }
+
+/*Secondary button*/
+.btn--secondary{
+  background-color: #E9E5EA;
+  border: 1px solid #413C4A;
+  border-radius: 30px;
+  color: #B413C4A;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
 .btn--secondary:hover {
-  background-color: white;
+  color: #413C4A;
+  background-color: #fff;
+  border: 1px solid #413C4A;
 }
 
 
