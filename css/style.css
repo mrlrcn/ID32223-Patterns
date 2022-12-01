@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Cabin', sans-serif;
     color: #000;
-    background-color:#F6F4F6;
+    background-color:#fff;
     font-weight: 400;
 }
 
@@ -15,6 +15,7 @@ h5,
 h6 {
     font-weight: 700;
     margin-bottom: 0.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header sizes */
@@ -56,13 +57,14 @@ h6,
     color: #B413C4A;
     cursor: pointer;
     display: inline-block;
-    font-weight: 600;
+    font-family: 'roboto', sans-serif;
     font-size: 18px;
     padding: 0 18px;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
-}
+    text-transform: uppercase;
+  }
   
   .btn:hover {
     color: #B4A1DB;
@@ -90,23 +92,103 @@ h6,
     transform: translate(0px);
   }
 
+  /* Inputs */
+[type="text"],
+[type="email"] {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #ffffff;
+   background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+[type="text"]:focus,
+[type="email"]:focus {
+  border-color: #B4A1DB;
+  outline: none;
+  box-shadow: rgba(198, 171, 250, 0.5) 0px 0px 0px 0.5px;
+}
+
+.messageBoxSize {
+  width: ;
+  height: ;
+}
+                
+
   /* UTILITIES */
   /* Colors */
+
   .color-light {
     color: #F6F4F6;
+  }
+  .bg-color-light {
+    background-color: #F6F4F6;
   }
 
   .color-gray {
     color: #E9E5EA;
   }
+  .bg-color-gray {
+    background-color: #E9E5EA;
+  }
 
   .color-dark {
     color: #413C4A;
+  }
+  .bg-color-dark {
+    background-color: #413C4A;
   }
 
   .color-purple-light {
     color: #E3D5FD;
   }
+  .bg-color-purple-light {
+    background-color: #E3D5FD;
+  }
+
   .color-purple-dark {
     color: #B4A1DB;
   }
+  .bg-color-purple-dark {
+    background-color: #B4A1DB;
+  }
+
+  /* THIS page */
+
+  div {
+    text-align: center;
+    line-height: 95px;
+  }
+  
+  .pattern-title {
+    border-bottom: 1px solid #e1e1e1;
+    opacity: 0.6;
+  }
+
+  .pattern-content {
+    max-width: 800px;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .pattern-section {
+    margin-bottom: 64px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pattern-color {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
