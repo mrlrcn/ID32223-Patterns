@@ -1,0 +1,40 @@
+/*Main Button*/
+.btn {
+    background-color: #E3D5FD;
+    border: 1px solid #413C4A;
+    border-radius: 30px;
+    color: #B413C4A;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: #B4A1DB;
+    background-color: #fff;
+    border: 1px solid #B4A1DB;
+  }
+  
+  .btn:active {
+    transform: translate(2px, 2px);
+  }
+  
+  /*Secondary button*/
+  .btn--secondary{
+    background-color: #E9E5EA;
+  }
+  
+  .btn--secondary:hover {
+    color: #413C4A;
+    background-color: #fff;
+    border: 1px solid #413C4A;
+  }
+  
+  .btn--secondary:active {
+    transform: translate(0px);
+  }
