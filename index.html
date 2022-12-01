@@ -11,29 +11,57 @@
     <title>Mar Style Sheet</title>
 </head>
 <body>
-    <!--Headers Section-->
-    <section class="pattern-section">
-        <h2 class="pattern-title">Headers</h2>
-        <h1 data-header="h1">This is a h1 header.</h1>
-        <h2 data-header="h2">This is a h2 header.</h2>
-        <h3 data-header="h3">This is a h3 header.</h3>
-        <h4 data-header="h4">This is a h4 header.</h4>
-        <h5 data-header="h5">This is a h5 header.</h5>
-        <h6 data-header="h6">This is a h6 header.</h6>
-        <p>This is a paragraph. This is a paragraph. This is a paragraph.</p>
-      </section>
+    <main class="pattern-section">
+    <h1>Mars Pattern Library</h1>
+        
+<!-- Colors Section -->
+        <section class="pattern-section">
+        <h2 class="pattern-title">Colors</h2>
+        <h5>Main Color tints</h5>
+            <div class="pattern-color bg-color-purple-light" data-color="#E3D5FD">#E3D5FD</div>
+            <div class="pattern-color bg-color-purple-dark" data-color="#B4A1DB">#B4A1DB</div>
+
+        <h5>Secondary Color tints</h5>
+            <div class="pattern-color bg-color-light" data-color="#F6F4F6">#F6F4F6</div>
+            <div class="pattern-color bg-color-gray" data-color="#E9E5EA">#E9E5EA</div>
+            <div class="pattern-color bg-color-dark" data-color="#413C4A">#413C4A</div>
+        </section>
+
+<!-- Headers Section -->
+        <section class="pattern-section">
+            <h2 class="pattern-title">Headers</h2>
+            <h1 data-header="h1">This is a h1 header.</h1>
+            <h2 data-header="h2">This is a h2 header.</h2>
+            <h3 data-header="h3">This is a h3 header.</h3>
+            <h4 data-header="h4">This is a h4 header.</h4>
+            <h5 data-header="h5">This is a h5 header.</h5>
+            <h6 data-header="h6">This is a h6 header.</h6>
+            <p>This is a paragraph.</p>
+        </section>
     
-    <!-- BOTONES -->
-    <section>
-        <h2>Buttons</h2>
-        <h3>Main Button</h3>
-        <button class="btn">Action</button>
-    </section>
-    <section>
-        <h2>Buttons</h2>
-        <h3>Secondary Button</h3>
-        <button class="btn btn--secondary">Action</button>
-    </section>
-    
+      
+<!-- Button Section -->
+        <section class="pattern-section">
+            <h2 class="pattern-title">Buttons & Links</h2>
+            <h5>Main Button</h3>
+            <button class="btn">Action</button>
+
+            <h5>Secondary Button</h3>
+            <button class="btn btn--secondary">Action</button>
+
+            <h5>Links</h3>
+                <a href="#" class=links"></a>
+        </section>
+        
+<!-- Inputs Section-->
+        <section class="pattern-section">
+            <h2 class="pattern-title">Inputs</h2>
+            <label for="nombre">Name</label>
+<input id="nombre" type="text" placeholder="How should I call you">
+<label for="email">Email</label>
+<input id="email" type="email" placeholder="So I can contact you">
+<label for="email">Message</label><input id="text" type="text" placeholder="Tell me your ideas" class="messageBoxSize">
+        </section>
+    </main> 
 </body>
 </html>
