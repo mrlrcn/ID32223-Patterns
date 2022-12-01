@@ -1,4 +1,54 @@
-/*Main Button*/
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    color: #000;
+    background-color:#F6F4F6;
+    font-weight: 400;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+/* Header sizes */
+h1,
+.h1 {
+  font-size: 42px;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+}
+
+h3,
+.h3 {
+  font-size: 28px;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+}
+
+/* Main Button */
 .btn {
     background-color: #E3D5FD;
     border: 1px solid #413C4A;
@@ -12,7 +62,7 @@
     line-height: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
   .btn:hover {
     color: #B4A1DB;
@@ -24,7 +74,8 @@
     transform: translate(2px, 2px);
   }
   
-  /*Secondary button*/
+  /* Secondary button */
+
   .btn--secondary{
     background-color: #E9E5EA;
   }
@@ -37,4 +88,25 @@
   
   .btn--secondary:active {
     transform: translate(0px);
+  }
+
+  /* UTILITIES */
+  /* Colors */
+  .color-light {
+    color: #F6F4F6;
+  }
+
+  .color-gray {
+    color: #E9E5EA;
+  }
+
+  .color-dark {
+    color: #413C4A;
+  }
+
+  .color-purple-light {
+    color: #E3D5FD;
+  }
+  .color-purple-dark {
+    color: #B4A1DB;
   }
