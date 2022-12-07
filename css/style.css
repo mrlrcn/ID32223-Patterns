@@ -92,6 +92,16 @@ h6,
     transform: translate(0px);
   }
 
+  /* Links */
+  .pattern-links {
+    text-decoration: none;
+    color:#24292e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+  .pattern-links:hover {
+    border-bottom:#24292e solid 1px;
+  }
   /* Inputs */
 [type="text"],
 [type="email"] {
@@ -101,7 +111,7 @@ h6,
   color: #24292e;
   vertical-align: middle;
   background-color: #ffffff;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: right 8px center;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
@@ -115,10 +125,10 @@ h6,
   box-shadow: rgba(198, 171, 250, 0.5) 0px 0px 0px 0.5px;
 }
 
-.messageBoxSize {
+/* WIP! .messageBoxSize {
   width: ;
   height: ;
-}
+} */
                 
 
   /* UTILITIES */
@@ -160,11 +170,6 @@ h6,
   }
 
   /* THIS page */
-
-  div {
-    text-align: center;
-    line-height: 95px;
-  }
   
   .pattern-title {
     border-bottom: 1px solid #e1e1e1;
